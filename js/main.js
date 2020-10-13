@@ -1,3 +1,29 @@
+function clicou(){
+    document.getElementById("agradecimento").innerHTML = "<b> Obrigado por clicar</b>";
+    console.log(document.getElementById("agradecimento"));
+}
+
+function redirecionar(){
+    //window.open("https://br.yahoo.com/");//abre em outra página
+    window.location.href = "https://br.yahoo.com/";//abre mesma página
+}
+
+function trocar(elemento){
+    elemento.innerHTML = "Passou o mouse!";
+}
+
+function voltar(elemento){
+    elemento.innerHTML = "Passe o mouse aqui.";
+}
+
+function load(){
+    alert("página carregada");
+}
+
+function functionChange(elemento){
+    console.log(elemento.value);
+}
+
 //alert("Meu primeiro js!");
 /*var nome = "Wagner Alves";
 var idade = 45;
@@ -43,7 +69,22 @@ for(var count = 0; count<=5; count++){
     alert(count);
 }*/
 
-for(var count = 5; count>=0; count--){
+/*for(var count = 5; count>=0; count--){
     console.log(count);
     alert(count);
+}*/
+/*function soma(n1, n2){
+    return n1+n2;
 }
+
+function validaIdade(idade){
+    if(idade>=18){
+        return true;
+    }else{
+        return false;
+    }
+}
+
+var idade = prompt("Qual a sua idade?");
+console.log(validaIdade(idade));
+*/
